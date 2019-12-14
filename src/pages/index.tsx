@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+//import Link from 'gatsby-link'
 import { StyleSheet, TouchableOpacity, Text, View } from 'react-native'
 
 const styles = StyleSheet.create({
@@ -25,7 +25,7 @@ const IndexPage = () => (
     <TouchableOpacity style={styles.button} onPress={() => alert('it works')}>
       <Text style={styles.buttonText}>Button</Text>
     </TouchableOpacity>
-    <Link to="/page-2/">Go to page 2</Link>
+    {/* <Link to="/page-2/">Go to page 2</Link> */}
   </View>
 )
 
